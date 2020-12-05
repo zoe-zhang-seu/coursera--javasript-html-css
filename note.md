@@ -1,6 +1,6 @@
 ## L13 element, class, ID
 
-selector:  -`p{}`   -> element 
-           -`.a{}`    class      class="a"  
-           -`#a{}`    ID         ID="a" 
-           -`p,h1{}`   AND        <p> AND <h1>
+selector:  `p{}`   for element e.g. <p>
+           `.a{}`  for class e.g. class="a"  
+           `#a{}`  for ID    e.g. ID="a" 
+           `p,h1{}`for AND   e.g. <p> AND <h1>
