@@ -1,0 +1,22 @@
+{
+  "name": "aboutus",
+  "version": "1.0.0",
+  "description": "This is to validate the responsive design",
+  "main": "aboutus.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoe-zhang-seu/coursera--javasript-html-css.git"
+  },
+  "author": "zoe (yanni)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoe-zhang-seu/coursera--javasript-html-css/issues"
+  },
+  "homepage": "https://github.com/zoe-zhang-seu/coursera--javasript-html-css#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
