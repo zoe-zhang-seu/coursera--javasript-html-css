@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body{
+  margin:15px;
+  font-family:monospace;
+}
+h1{
+	margin-top: 15px;
+  margin-bottom: 15px;
+	text-align: center;
+  color: #000000;
+ 	font-size: 40px;
+
+}
+.row{
+  width:100%;
+}
+/*To override the user agent inserted by Chrome*/
+p {    
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.box{
+  margin:10px;
+  border:1px solid black;
+}
+
+.contentName{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  margin-right: 0px;
+  border:1px solid black;
+
+
+
+}
+
+.content{
+  overflow: visible;
+  width: 100%;
+  color: black;
+  font-size: 15px ;
+  padding-top: 55px;
+  background-color: rgba(0,0,0,0.3);
+  padding-left: 5px;
+
+}
+
+.chicken{
+  background-color: #FFB6C1;
+}
+
+.beef{
+  color: white;
+  background-color: #A52A2A;
+}
+.sushi{
+  background-color: #FFD700;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+  .contentName{
+    margin-right: 0px;
+  }
+}

@@ -1,1 +1,110 @@
-styles.css
+*{
+	font-family: monospace;
+	color: black;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: grey;
+    border-radius:0;
+    border:0;
+    margin-bottom: 0px;
+    width: 100%;
+	
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1{
+	color: black;
+	font-size: 33px;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;/* remove super link */
+}
+
+
+#nav-list {
+ margin: 0px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+
+}
+#nav-list a:hover {
+  color:white;
+
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav{
+	margin:0px -15px 0px -15px ;
+	padding:0px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+/** body content**/
+.theme h1{/*title Our Menu */
+	color: grey;
+	text-align: center;
+
+}
+
+.paragraph{
+	background-color: #D3D3D3;
+	height:auto;
+	margin: 50px;/* separate different garph and make it in the middle of page*/
+	font-size: 15px;
+}
+
+.subtitle p{/* e.g. chicken Beef */
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content-item{
+	margin: 0px 20px 20px 20px;
+}
+
+@media (max-width: 991.98px) { 
+#nav-list a:hover {
+  background-color:white;
+  color:black;
+}
+
+}
+
+@media (min-width: 992px) { 
+
+#collapsable-nav{
+	 float:right;
+}
+
+#nav-list a:hover {
+  background-color:white;
+  color:grey;
+}
+
+
+ }
